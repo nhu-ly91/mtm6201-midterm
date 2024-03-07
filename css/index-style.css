@@ -1,3 +1,23 @@
+/* starting desktop version */
+body {
+    background-color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+/* Starting navigation */
+
+header nav {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
 /* Starting mobile version */
 @media (max-width: 600px) {
     body {
