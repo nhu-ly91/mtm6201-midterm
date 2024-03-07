@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order - order page</title>
+    <link rel="stylesheet" href="css/order-style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <header>
+        <button type="button" class="btn-back" onclick="document.location='home.html'"><span class="material-symbols-outlined back-icon">chevron_left</span></button>
+        <button type="button" class="btn-fav"><span class="material-symbols-outlined heart-icon">favorite</span></button>
+    </header>
+
+    <main>
+        <div class="introduce">
+            <h4>Chipotle Cheesy Chicken</h4>
+            <p class="introduce-p">A signature flame-grilled chicken patty topped with smoked beef</p>
+        </div>
+        <img class="order-img" src="images/burger-1.png">
+        <div class="burger-size">
+            <button type="text" class="size-S">S</button>
+            <button type="text" class="size-M">M</button>
+            <button type="text" class="size-L">L</button>
+        </div>
+        <div class="qty">
+            <span class="material-symbols-outlined icon-minus">remove</span>
+            <p>2</p>
+            <span class="material-symbols-outlined icon-plus">add</span>
+        </div>
+        <div class="price">
+            <p class="price-text">Price</p>
+            <p class="price-no">$ 41.90</p>
+            <button class="btn-cart" type="button" onclick="document.location='cart.html'"><span class="material-symbols-outlined">
+                local_mall
+                </span>Go to cart</button>
+        </div>
+    </main>
+</body>
+</html>
