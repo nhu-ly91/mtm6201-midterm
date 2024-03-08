@@ -183,22 +183,18 @@ h5 {
 }
 
 /* Starting footer */
-.menu-bottom {
+footer {
     width: 1010px;
     height: 50px;
     background-color: white;
     color: rgb(129, 129, 129);
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     position: fixed;
     bottom: 0;
+    padding: 2px;
     box-shadow: 5px 5px 20px lightgrey;
-    border-radius: 10px;
+    border-radius:10px;
 }
 
 .btn-bottom {
@@ -227,15 +223,6 @@ h5 {
 
 .btn-home:hover {
     color: rgb(255, 102, 102);
-}
-
-.text-menu-bottom {
-    text-decoration: none;
-    color: rgb(129, 129, 129);
-}
-
-.home-text {
-    color: rgb(200, 1, 1);
 }
 
 
@@ -431,20 +418,18 @@ h5 {
     }
 
     /* Starting footer */
-    .menu-bottom {
+    footer {
         width: 375px;
         height: 50px;
         background-color: white;
         color: rgb(129, 129, 129);
-        display: grid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto;
-        align-items: center;
+        display: flex;
+        justify-content: space-between;
         position: fixed;
         bottom: 0;
         padding: 2px;
         box-shadow: 5px 5px 20px lightgrey;
-        border-radius: 0 0 10px;
+        border-radius:10px;
     }
 
     .btn-bottom {
@@ -473,14 +458,5 @@ h5 {
 
     .btn-home:hover {
         color: rgb(255, 102, 102);
-    }
-
-    .text-menu-bottom {
-        text-decoration: none;
-        color: rgb(129, 129, 129);
-    }
-
-    .home-text {
-        color: rgb(200, 1, 1);
     }
 }
