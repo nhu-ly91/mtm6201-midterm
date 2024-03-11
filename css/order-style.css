@@ -156,6 +156,7 @@ header {
         width: 375px;
         background-color: white;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 5px;
     }
     
     /* Starting header */
