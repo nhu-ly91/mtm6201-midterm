@@ -14,21 +14,13 @@ header {
 }
 
 .btn-back {
-    height: 30px;
     background-color: white;
-    color: rgb(126, 126, 126);
-    box-shadow: 5px 5px 10px lightgrey;
     border: none;
-    border-radius: 10px;
 }
 
 .btn-more {
-    height: 30px;
     background-color: white;
-    color: rgb(126, 126, 126);
-    box-shadow: 5px 5px 10px lightgrey;
     border: none;
-    border-radius: 10px;
 }
 
 /* starting order 1 */
@@ -133,24 +125,6 @@ table tr td {
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-    
-    .btn-back {
-        height: 30px;
-        background-color: white;
-        color: rgb(126, 126, 126);
-        box-shadow: 5px 5px 10px lightgrey;
-        border: none;
-        border-radius: 10px;
-    }
-    
-    .btn-more {
-        height: 30px;
-        background-color: white;
-        color: rgb(126, 126, 126);
-        box-shadow: 5px 5px 10px lightgrey;
-        border: none;
-        border-radius: 10px;
     }
     
     /* starting order 1 */

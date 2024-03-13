@@ -13,20 +13,14 @@ header {
 }
 
 .btn-back {
-    height: 30px;
-    color: rgb(129, 129, 129);
+    height: 40px;
     background-color: white;
-    box-shadow: 5px 5px 10px lightgrey;
-    border-radius: 5px;
     border: none;
 }
 
 .btn-fav {
-    height: 30px;
-    color: rgb(200, 1, 1);
+    height: 40px;
     background-color: white;
-    box-shadow: 5px 5px 10px lightgrey;
-    border-radius: 5px;
     border: none;
 }
 
@@ -163,24 +157,6 @@ header {
     header {
         display: flex;
         justify-content: space-between;
-    }
-    
-    .btn-back {
-        height: 30px;
-        color: rgb(129, 129, 129);
-        background-color: white;
-        box-shadow: 5px 5px 10px lightgrey;
-        border-radius: 5px;
-        border: none;
-    }
-    
-    .btn-fav {
-        height: 30px;
-        color: rgb(200, 1, 1);
-        background-color: white;
-        box-shadow: 5px 5px 10px lightgrey;
-        border-radius: 5px;
-        border: none;
     }
     
     /* starting introduce */

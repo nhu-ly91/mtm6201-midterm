@@ -8,14 +8,20 @@
     <link rel="stylesheet" href="css/index-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <button type="button" class="btn-menu" onclick="document.location='index.html'"><img src="images/menu-icon.svg" alt="menu-icon" class="menu-icon"></button>
-            <img class="location-icon" src="images/location-icon.svg" alt="location"><h4>Chicago, IL</h4>
+            <button type="button" class="btn-menu" onclick="document.location='index.html'"><img
+                    src="images/menu-icon.svg" alt="menu-icon" class="menu-icon"></button>
+            <div class="location">
+                <img class="location-icon" src="images/location-icon.svg" alt="location">
+                <h4>Chicago, IL</h4>
+            </div>
             <img class="profile-img" src="images/women-1x.png" alt="profile-img">
         </nav>
     </header>
@@ -23,16 +29,15 @@
     <main>
         <div class="welcome-text">
             <h1>Hey!</h1>
-            <h3>Let's get your order</h3>
+            <p>Let's get your order</p>
         </div>
 
         <form class="search-box">
             <img src="images/search-icon.svg" alt="search-icon" class="search-icon">
-            <input class="place-box" type="text"
-                    placeholder="Search our delicious burgers">
+            <input class="place-box" type="text" placeholder="Search our delicious burgers">
         </form>
 
-        
+
         <div class="categories">
             <div class="ctn-burger">
                 <img class="img-item" src="images/burger-icon-1x.png" alt="burger-cat">
@@ -64,9 +69,9 @@
                     <img class="burger-2" src="images/burger-2-1x.png" alt="burger-main">
                 </div>
                 <div class="price-text">
-                    <h5>Chipotle Cheesy Chicken</h5>
-                    <h5>$20.95</h5>
-                    <h5>Chicken Burger</h5>
+                    <p>Chipotle Cheesy Chicken</p>
+                    <p>$20.95</p>
+                    <p>Chicken Burger</p>
                 </div>
                 <button type="button" onclick="document.location='order.html'" class="btn-order">Order</button>
             </div>
@@ -75,13 +80,13 @@
 
     <footer>
         <button type="button" onclick="document.location='index.html'" class="btn-home">
-                <img src="images/home-icon.svg" alt="home-img" class="footer-icon">Home</button> 
+            <img src="images/home-icon.svg" alt="home-img" class="footer-icon">Home</button>
         <button type="button" class="btn-bottom">
-                <img src="images/fav-icon.svg" alt="favorite" class="footer-icon">Favorites</button> 
+            <img src="images/fav-icon.svg" alt="favorite" class="footer-icon">Favorites</button>
         <button type="button" class="btn-bottom">
-                <img src="images/account-icon.svg" alt="account" class="footer-icon">Account</button>
+            <img src="images/account-icon.svg" alt="account" class="footer-icon">Account</button>
         <button type="button" class="btn-bottom">
-                <img src="images/more-icon.svg" alt="more" class="footer-icon">More</button>    
+            <img src="images/more-icon.svg" alt="more" class="footer-icon">More</button>
     </footer>
 </body>
 
