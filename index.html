@@ -40,19 +40,34 @@
 
         <div class="categories">
             <div class="ctn-burger">
-                <img srcset="images/burger-icon-1x.png, images/burger-icon-2x.png" class="img-item" src="images/burger-icon-1x.png" alt="burger-cat">
+                <picture class="cat-icon">
+                    <source media="(max-width: 375px)" srcset="images/burger-icon-1x.png">
+                    <source media="(min-width: 375px)" srcset="images/burger-icon-2x.png">
+                    <img srcset="images/burger-icon-1x.png, images/burger-icon-2x.png" class="img-item"
+                        src="images/burger-icon-1x.png" alt="burger-cat">
+                </picture>
                 <h5>Burgers</h5>
                 <img src="images/arrow-icon-1.svg" alt="arrow" class="arrow-icon">
             </div>
 
             <div class="ctn-cat">
-                <img srcset="images/pizza-icon-1x.png, images/pizza-icon-2x.png" class="img-item" src="images/pizza-icon-1x.png" alt="pizza-cat">
+                <picture class="cat-icon">
+                    <source media="(max-width: 375px)" srcset="images/pizza-icon-1x.png">
+                    <source media="(min-width: 375px)" srcset="images/pizza-icon-2x.png">
+                    <img srcset="images/pizza-icon-1x.png, images/pizza-icon-2x.png" class="img-item"
+                        src="images/pizza-icon-1x.png" alt="pizza-cat">
+                </picture>
                 <h5>Pizza</h5>
                 <img src="images/arrow-icon-2.svg" alt="arrow" class="arrow-icon">
             </div>
 
             <div class="ctn-cat">
-                <img srcset="images/cake-icon-1x.png, images/cake-icon-2x.png" class="img-item" src="images/cake-icon-1x.png" alt="cake-cat">
+                <picture class="cat-icon">
+                    <source media="(max-width: 375px)" srcset="images/cake-icon-1x.png">
+                    <source media="(min-width: 375px)" srcset="images/cake-icon-2x.png">
+                    <img srcset="images/cake-icon-1x.png, images/cake-icon-2x.png" class="img-item"
+                        src="images/cake-icon-1x.png" alt="cake-cat">
+                </picture>
                 <h5>Cakes</h5>
                 <img src="images/arrow-icon-2.svg" alt="arrow" class="arrow-icon">
             </div>
@@ -66,7 +81,11 @@
             <div class="item-container">
                 <div class="box-container">
                     <div class="red-box"></div>
-                    <img srcset="images/burger-2-1x.png, images/burger-2-2x.png" class="burger-2" src="images/burger-2-1x.png" alt="burger-main">
+                    <picture>
+                        <source media="(max-width: 375px)" srcset="images/burger-2-1x.png">
+                        <source media="(min-width: 375px)" srcset="images/burger-2-2x.png">
+                        <img srcset="images/burger-2-1x.png, images/burger-2-2x.png" class="burger-2" src="images/burger-2-1x.png" alt="burger-main">
+                    </picture>
                 </div>
                 <div class="price-text">
                     <p>Chipotle Cheesy Chicken</p>
