@@ -186,6 +186,11 @@ h5 {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
     justify-content: space-between;
+    margin: 0;
+}
+
+.item-name {
+    margin: 0;
 }
 
 .btn-order {
@@ -429,6 +434,7 @@ footer {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
         justify-content: space-between;
+        margin: 0;
     }
 
     .btn-order {
