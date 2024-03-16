@@ -18,7 +18,7 @@
     <!-- start navigation -->
     <header>
         <a href="#main-content" aria-label="Skip to main content" class="skip">Skip to main content</a>
-        <nav>
+        <nav aria-label="main">
             <button type="button" class="btn-menu" onclick="document.location='index.html'"><img
                     src="images/menu-icon.svg" alt="menu-icon" class="menu-icon"></button>
             <div class="location">
@@ -31,7 +31,7 @@
 
     <main>
         <!-- Welcome heading -->
-        <div class="welcome-text">
+        <div role="heading" class="welcome-text">
             <h1>Hey!</h1>
             <p>Let's get your order</p>
         </div>
@@ -42,8 +42,8 @@
         </form>
 
         <!-- categories part -->
-        <div class="categories">
-            <div class="ctn-burger">
+        <div role="menu" class="categories">
+            <div role="menuitem" class="ctn-burger">
                 <picture class="cat-icon">
                     <source media="(max-width: 375px)" srcset="images/burger-icon-1x.png">
                     <source media="(min-width: 375px)" srcset="images/burger-icon-2x.png">
@@ -54,7 +54,7 @@
                 <img src="images/arrow-icon-1.svg" alt="arrow" class="arrow-icon">
             </div>
 
-            <div class="ctn-cat">
+            <div role="menuitem" class="ctn-cat">
                 <picture class="cat-icon">
                     <source media="(max-width: 375px)" srcset="images/pizza-icon-1x.png">
                     <source media="(min-width: 375px)" srcset="images/pizza-icon-2x.png">
@@ -65,7 +65,7 @@
                 <img src="images/arrow-icon-2.svg" alt="arrow" class="arrow-icon">
             </div>
 
-            <div class="ctn-cat">
+            <div role="menuitem" class="ctn-cat">
                 <picture class="cat-icon">
                     <source media="(max-width: 375px)" srcset="images/cake-icon-1x.png">
                     <source media="(min-width: 375px)" srcset="images/cake-icon-2x.png">
@@ -78,7 +78,7 @@
         </div>
 
         <!-- popular part -->
-        <div>
+        <div role="menu">
             <div class="popular">
                 <h4>Popular</h4>
                 <h6>View all ></h6>

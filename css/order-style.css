@@ -12,6 +12,23 @@ header {
     justify-content: space-between;
 }
 
+.skip{
+    position:absolute;
+    top:auto;
+    width: 2px;
+    height: 2px;  
+    color: black;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  .skip:focus{
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 2px;
+  }
+
 .btn-back {
     height: 40px;
     background-color: white;
